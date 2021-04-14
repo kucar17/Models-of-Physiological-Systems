@@ -37,3 +37,10 @@ Active State Dataset and the Fitted Curve:
 
 ![Curve](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Inbar%20-%20Adam%20Muscle%20Model/fitted.png)
 
+### Simulation Results:
+
+![Results](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Inbar%20-%20Adam%20Muscle%20Model/result.png)
+
+### Analysis of the Simulation Results:
+
+Simulation yields close results to Inbar and Adam’s experiments. However, probably because of the approximated parameters, the first twitch takes a bit longer compared to Inbar’s Model and therefore the expected induced tetanus gets interrupted when input is applied. After the input (∆x), the Tension plot experiences a sudden increase and an “exponential decay”. Short time after input is released, the Tension reaches zero, just like Inbar’s results. Therefore, it can be concluded that Inbar’s model was approximated with fairly-well accuracy in this research.
