@@ -9,7 +9,7 @@ This model uses MATLAB sub-functions, which are exported to the Simulink environ
 
 ![Model Diagram](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Hodgkin-Huxley%20Single%20Neuron%20Model/Model.png?raw=true)
 
-### Simulation Results
+### Simulation Results:
 
 Membrane Potential:
 
@@ -18,3 +18,8 @@ Membrane Potential:
 Sodium Potassium Gating Variables:
 
 ![Membrane Potential](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Hodgkin-Huxley%20Single%20Neuron%20Model/Gating_Variables.png)
+
+### Analysis of the Simulation Results:
+
+Until t = 50 seconds, it can be seen from the first plot that the cell is at rest with approximately -62 miliVolts. Since it is known that the resting potential of the cell membrane is around -65 milliVolts, it can be concluded that the simulated model yields accurate/satisfactory membrane potential results. Also, the second plot coincides with the membrane potential plot, and the input characteristics. Therefore it can be concluded that the simulated membrane model captures the characteristics of a real membrane accurately.
+
