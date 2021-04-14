@@ -26,3 +26,14 @@ Until t = 50 seconds, it can be seen from the first plot that the cell is at res
 ## Second Model: Inbar - Adam Linear Muscle Model:
 
 This model uses a Simulink model in order to simulate the tension characteristics of a muscle. The model was proposed by Inbar and Adam, in 1976. Also, in order to capture the Active State of a muscle accurately, a sum-of-exponentials curve was fitted to a dataset via MATLAB's Curve Fitting Toolbox. This sum-of-exponentials curve was transferred to the Laplace Domain, before being used in the simulation. 
+
+### Simulink Model:
+
+![Model Diagram](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Inbar%20-%20Adam%20Muscle%20Model/simu_muscle.png)
+
+![Sub-system](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Inbar%20-%20Adam%20Muscle%20Model/simu_muscle_sub.png)
+
+Active State Dataset and the Fitted Curve:
+
+![Curve](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Inbar%20-%20Adam%20Muscle%20Model/fitted.png)
+
