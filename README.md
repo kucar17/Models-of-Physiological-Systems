@@ -44,3 +44,20 @@ Active State Dataset and the Fitted Curve:
 ### Analysis of the Simulation Results:
 
 Simulation yields close results to Inbar and Adam’s experiments. However, probably because of the approximated parameters, the first twitch takes a bit longer compared to Inbar’s Model and therefore the expected induced tetanus gets interrupted when input is applied. After the input (∆x), the Tension plot experiences a sudden increase and an “exponential decay”. Short time after input is released, the Tension reaches zero, just like Inbar’s results. Therefore, it can be concluded that Inbar’s model was approximated with fairly-well accuracy in this research.
+
+## Third Model: Izhikevich Neuron Model
+Izhikevich Neuron Model is a Neuron Model which aims to simulate the behaviour of the membrane potential in the neuron cells according to different frequencies. The model consists of two differential equations for two state variables; membrane potential, and the recovery variable (activation of K+ ionic currents and inactivation of Na+ ionic currents). It also has a reset condition which makes it possible for neuron to repolarize after the action potential has occurred.
+
+### Simulink Model:
+
+![Model Diagram](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Izhikevich%20Neuron%20Model/Model.png)
+
+### Simulation Results:
+
+Membrane Potential vs. Time:
+
+![Result 1](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Izhikevich%20Neuron%20Model/Membrane_Potential_vs_Time.png)
+
+Recovery Variables vs. Time:
+
+![Result 2](https://github.com/kucar17/Models-of-Physiological-Systems/blob/main/Izhikevich%20Neuron%20Model/Recovery_Variable_vs_Time.png)
